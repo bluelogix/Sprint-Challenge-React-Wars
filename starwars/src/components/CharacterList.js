@@ -5,7 +5,7 @@ import Character from './Character'
 
 function CharacterList(props) {
     return (
-        <div>
+        <div className="char">
             {props.info.map(charList => {
         return <Character key={charList.name} charList={charList} />;
       })}
