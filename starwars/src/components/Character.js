@@ -5,9 +5,11 @@ import './StarWars.css'
 const Character = props => {
   return (
     <div className="char">
+    <div className="names">
          <p>{props.charList.name}</p>
+    </div>
         <div className="elementList">
-           <div>gender: {props.charList.gender}</div>
+           <div className="gender">gender: {props.charList.gender}</div>
            <div>skinColor: {props.charList.skin_color}</div>
         </div>
 
